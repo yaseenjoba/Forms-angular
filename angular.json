@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css","node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -91,9 +91,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css","src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
           }
         },
         "lint": {
@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Forms-Practice"
+  "defaultProject": "Forms-Practice",
+  "cli": {
+    "analytics": "129c2d09-1ef7-4d20-87b3-734f908cdc91"
+  }
 }
